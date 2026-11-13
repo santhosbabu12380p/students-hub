@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Study Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="logo-icon">S</span>
+            <h2>StudyHub</h2>
+        </div>
+
+        <nav>
+            <a href="#dashboard" class="active">Dashboard</a>
+            <a href="#tasks">My Tasks</a>
+            <a href="#resources">Resources</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <div class="profile">
+            <span>SB</span>
+        </div>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container" id="dashboard">
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+
+            <div>
+                <p class="subtitle">YOUR LEARNING SPACE</p>
+
+                <h1>Make Today <span>Count.</span></h1>
+
+                <p class="description">
+                    Plan your work, stay consistent, and make progress
+                    one session at a time.
+                </p>
+            </div>
+
+            <div class="welcome-card">
+                <h3>STUDY SMART</h3>
+                <p>Small steps. Big results.</p>
+            </div>
+
+        </section>
+
+
+        <!-- Statistics Section -->
+        <section class="stats">
+
+            <article class="stat-card">
+
+                <div class="icon purple">▤</div>
+
+                <p>Planned Study Hours</p>
+
+                <h2>5 <small>hrs</small></h2>
+
+                <span>Your daily target</span>
+
+            </article>
+
+
+            <article class="stat-card">
+
+                <div class="icon blue">✓</div>
+
+                <p>Tasks Completed</p>
+
+                <h2>3 <small>/ 5</small></h2>
+
+                <span>Keep the momentum</span>
+
+            </article>
+
+
+            <article class="stat-card">
+
+                <div class="icon orange">⌁</div>
+
+                <p>Learning Streak</p>
+
+                <h2>7 <small>days</small></h2>
+
+                <span>Consistency matters</span>
+
+            </article>
+
+        </section>
+
+
+        <!-- Dashboard Content -->
+        <div class="content-grid">
+
+            <!-- Tasks Section -->
+            <section class="panel" id="tasks">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="subtitle">STAY ON TRACK</p>
+                        <h2>Today's Tasks</h2>
+                    </div>
+
+                    <span class="badge">3 of 5 done</span>
+
+                </div>
+
+
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+
+                <p class="progress-text">
+                    60% of today's plan completed
+                </p>
+
+
+                <ul class="task-list">
+
+                    <li class="completed">
+                        <span class="check">✓</span>
+
+                        <div>
+                            <strong>Revise Java OOP Concepts</strong>
+                            <small>Core Java · 60 minutes</small>
+                        </div>
+
+                        <span class="status">Done</span>
+                    </li>
+
+
+                    <li class="completed">
+                        <span class="check">✓</span>
+
+                        <div>
+                            <strong>Practice Array Problems</strong>
+                            <small>DSA · 90 minutes</small>
+                        </div>
+
+                        <span class="status">Done</span>
+                    </li>
+
+
+                    <li class="completed">
+                        <span class="check">✓</span>
+
+                        <div>
+                            <strong>Read HTML Semantic Elements</strong>
+                            <small>FET · 45 minutes</small>
+                        </div>
+
+                        <span class="status">Done</span>
+                    </li>
+
+
+                    <li>
+                        <span class="empty-check"></span>
+
+                        <div>
+                            <strong>Build a Responsive Webpage</strong>
+                            <small>FET · 60 minutes</small>
+                        </div>
+
+                        <span class="pending">Next</span>
+                    </li>
+
+
+                    <li>
+                        <span class="empty-check"></span>
+
+                        <div>
+                            <strong>Review Today's Notes</strong>
+                            <small>Revision · 30 minutes</small>
+                        </div>
+
+                        <span class="pending">Pending</span>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <!-- Right Side -->
+            <aside class="side-column">
+
+                <section class="panel focus-card">
+
+                    <p class="subtitle">FOCUS SESSION</p>
+
+                    <div class="focus-icon">◎</div>
+
+                    <h2>One Thing at a Time.</h2>
+
+                    <p>
+                        Choose one important task and give it
+                        your full attention.
+                    </p>
+
+                    <div class="timer">
+                        <strong>25</strong>
+                        <span>MINUTES</span>
+                    </div>
+
+                    <small>Suggested focus block</small>
+
+                </section>
+
+
+                <section class="panel quote-card">
+
+                    <h2>“</h2>
+
+                    <p>
+                        Success is the sum of small efforts,
+                        repeated day in and day out.
+                    </p>
+
+                    <small>— Robert Collier</small>
+
+                </section>
+
+            </aside>
+
+        </div>
+
+
+        <!-- Resources Section -->
+        <section class="panel resources" id="resources">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="subtitle">KEEP LEARNING</p>
+                    <h2>Quick Learning Paths</h2>
+                </div>
+
+                <span class="resource-text">
+                    Pick your next topic
+                </span>
+
+            </div>
+
+
+            <div class="resource-grid">
+
+                <article class="resource-card">
+
+                    <div class="resource-icon violet">J</div>
+
+                    <div>
+                        <h3>Java Programming</h3>
+                        <p>OOP · Collections · Practice</p>
+                    </div>
+
+                    <span class="arrow">↗</span>
+
+                </article>
+
+
+                <article class="resource-card">
+
+                    <div class="resource-icon cyan">⌘</div>
+
+                    <div>
+                        <h3>Data Structures</h3>
+                        <p>Arrays · Binary Search · Trees</p>
+                    </div>
+
+                    <span class="arrow">↗</span>
+
+                </article>
+
+
+                <article class="resource-card">
+
+                    <div class="resource-icon peach">〈〉</div>
+
+                    <div>
+                        <h3>Front-End Development</h3>
+                        <p>HTML · CSS · JavaScript</p>
+                    </div>
+
+                    <span class="arrow">↗</span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about panel" id="about">
+
+            <p class="subtitle">ABOUT THE PROJECT</p>
+
+            <h2>Learn Better. Grow Faster.</h2>
+
+            <p>
+                Student Study Hub is a student productivity dashboard
+                designed to help learners organize study tasks,
+                monitor progress, and manage learning resources
+                through a simple and clean interface.
+            </p>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <p>© 2026 Student Study Hub</p>
+
+            <p>Designed for Focused Learning.</p>
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
